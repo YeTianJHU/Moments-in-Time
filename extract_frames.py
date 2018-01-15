@@ -29,8 +29,8 @@ def collect_files(dir_name, file_ext=".mp4", sort_files=True):
 ##############################################################################################################
 def main(args=None, parser=None):
 
-	data_dir = '/media/ye/Seagate Expansion Drive/moments_in_time/Moments_in_Time_256x256_30fps/validation'
-	images_dir = '/media/ye/Seagate Expansion Drive/moments_in_time/images/validation'
+	data_dir = '/data/xiang/eccv18exp/Moments_in_Time_256x256_30fps/training'
+	images_dir = '/data/xiang/eccv18exp/moments-frames/training'
 
 	label_list = listdir(data_dir)
 	print 'Total ', len(label_list), ' of files'
